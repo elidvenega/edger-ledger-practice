@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 :root {
-    --main-color: #27ae60;
-    --hover_color: #2ecc71;
+    --hover_color: #3498db;
+    --main-color: #2980b9;
     --grey-color: #434343;
 }
 
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     line-height: 1.4;
 
 }
@@ -228,7 +228,6 @@ p {
     display: flex;
 }
 
-#contact .map,
 #contact .contact-form {
     flex: 1;
 }

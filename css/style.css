@@ -180,7 +180,8 @@ p {
 }
 
 #what .items .item i {
-    background: #93cb52;
+    background: var(--main-color);
+    color: #fff;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
@@ -244,4 +245,8 @@ p {
 #contact .contact-form textarea {
     width: 100%;
     padding: 0.5rem;
+}
+
+#main-footer {
+    height: 60px;
 }

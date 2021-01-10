@@ -334,6 +334,12 @@ p {
         display: none;
     }
 
+    .flex-items {
+        display: flex;
+         flex-direction: column;
+        height: 100%;
+    }
+
     #clients .items img {
         width: 80%;
     }

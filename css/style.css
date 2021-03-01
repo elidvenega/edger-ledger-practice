@@ -320,6 +320,15 @@ padding: 1rem;
         flex-direction: column;
     }
 
+    #clients .items img {
+        display: block;
+        margin: auto;
+        height: 40vh;
+        width: 65%;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
     #clients .container .items {
         flex-direction: column;
     }

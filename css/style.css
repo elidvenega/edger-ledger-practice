@@ -193,12 +193,13 @@ p {
     padding: 1rem;
 }
 
- #what .items .item {
-     flex: 1; 
-text-align: center;
-padding: 1rem;
+#what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
 }
-    #what .items .item i {
+
+#what .items .item i {
     background: var(--main-color);
     color: #fff;
     padding: 1.3rem;
@@ -329,14 +330,20 @@ padding: 1rem;
         padding: 10px;
     }
 
+    #clients .items {
+        display: flex;
+
+    }
+
     #clients .container .items {
         flex-direction: column;
     }
 
-    #clients .items div:last-child {
+
+    /* #clients .items div:last-child {
         display: none;
 
-    }
+    } */
 
     #contact {
         flex-direction: column;

@@ -344,6 +344,11 @@ p {
         top: 110px;
     }
 
+    #showcase2 .showcase-content {
+        top: 115px;
+    }
+
+
     #who {
         display: block;
     }
@@ -400,6 +405,11 @@ p {
     }
 
     #showcase .showcase-content {
+        margin-top: -2rem;
+        top: 140px;
+    }
+
+    #showcase2 .showcase-content {
         margin-top: -2rem;
         top: 140px;
     }
